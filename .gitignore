@@ -1,0 +1,13 @@
+apidoc
+.settings
+*~
+*.diff
+*.patch
+test/qunit
+.DS_Store
+closed-*
+node_modules/
+npm-debug.log
+flow-coverage/
+babel.pid
+build/

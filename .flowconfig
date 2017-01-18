@@ -1,0 +1,13 @@
+[ignore]
+.*/node_modules/**/.*
+.*/git/.*
+.*/build/.*
+
+[include]
+src/**/*.js
+
+[libs]
+
+[options]
+module.name_mapper='^sample_module\(.*\)' -> 'sample_module/src\1'
+module.name_mapper='^/' -> '<PROJECT_ROOT>/src/'
